@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单标签</title>
+</head>
+
+<body>
+    <header>
+        <h1>小调查</h1>
+    </header>
+    <div class="main">
+        <form>
+            <div class="form-item">
+                <span>姓名</span>
+                <input type="text">
+            </div>
+            <div class="form-item">
+                <span>邮箱</span>
+                <input type="email">
+            </div>
+            <div class="form-item">
+                <span>性别</span>
+                <!-- 两个选项的name要相同。radio和checkbox里面的value值是做动态网页时把数据提交到后台用的 -->
+                <input type="radio" name="sex" value="男">男
+                <input type="radio" name="sex" value="女">女
+            </div>
+            <div class="form-item">
+                <span>喜欢吃的食物</span>
+                <input type="checkbox" name="food" value="酱油鸡翅">酱油鸡翅
+                <input type="checkbox" name="food" value="麦辣鸡翅">麦辣鸡翅
+                <input type="checkbox" name="food" value="椒盐鸡翅">椒盐鸡翅
+                <input type="checkbox" name="food" value="茄汁鸡翅">茄汁鸡翅
+            </div>
+            <div class="form-item">
+                <span>对鸡翅的喜爱程度</span>
+                <select>
+                    <option value="不喜欢">不喜欢</option>
+                    <option value="一般般">一般般</option>
+                    <option value="很喜欢">很喜欢</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <!-- reset和submit里面的value值是按钮的名称 -->
+                <input type="reset" name="reset" value="重设">
+                <input type="submit" name="submit" value="提交">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
