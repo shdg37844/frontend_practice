@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: arial, 'pingfang sc', stheiti, 'microsoft yahei', sans-serif;
+    font-size: 13px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.page-header nav a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.page-header .nav-left a {
+    margin-left: 18px;
+}
+
+.page-header .nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.page-header .nav-right {
+    margin-right: 22px;
+    font-size: 12px;
+}
+
+.page-header .nav-right span:first-child {
+    margin-right: 40px;
+}
+
+.page-header .nav-right .weather-logo img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 7px;
+}
+
+.page-header .nav-right .temperature {
+    margin-right: 48px;
+}
+
+.page-header .nav-right a:last-child {
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    color: white;
+    background-color: rgb(253, 104, 83);
+    text-align: center;
+    line-height: 24px;
+}
+
+.page-mainer {
+    flex: 1;
+    text-align: center;
+    margin-top: 173px;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container .form-search {
+    display: inline-block;
+    width: 720px;
+    height: 42px;
+    border: 1px solid #b6b6b6;
+    outline: none;
+}
+
+.form-container .submit-btn {
+    width: 99px;
+    height: 42px;
+    font-size: 16px;
+    border: 1px solid #b6b6b6;
+    border-left: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.page-footer {
+    display: flex;
+    text-align: center;
+    margin: 0px 426px 25px 495px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.page-footer .footer-info-top {
+    color: rgba(0, 0, 0, .7);
+    margin-bottom: 5px;
+}
+
+.page-footer .footer-info {
+    margin-bottom: 5px;
+}
+
+.page-footer .footer-info a {
+    margin-right: 5px;
+}
+
+.page-footer .footer-right img {
+    width: 86px;
+    height: 40px;
+    margin-top: 38px;
+    margin-left: 10px;
+}
